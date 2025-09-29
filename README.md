@@ -4,7 +4,7 @@
 
 [![Python 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.XXXXXXX-blue)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17226894.svg)](https://doi.org/10.5281/zenodo.17226894)
 
 ## 📖 Overview
 
@@ -146,11 +146,22 @@ ecoli.fna   ecoli_achtman_4	156	O173	H28	B1	                PCR
     Zoonotic transmission studies
 
     Agricultural surveillance
+
 ## 📝 Citation
 
 If you use EcoliTyper in your research, please cite:
 
-Brown, B. (2025). EcoliTyper: Unified MLST + Serotyping + Clermont typing for Escherichia coli. GitHub repository: https://github.com/bbeckley-hub/ecoliTyper
+**Brown, B. (2025). EcoliTyper: Unified MLST + Serotyping + Clermont typing for Escherichia coli. Zenodo. https://doi.org/10.5281/zenodo.17226894**
+
+```bibtex
+@software{brown2025ecolityper,
+  title = {EcoliTyper: Unified MLST + Serotyping + Clermont typing for Escherichia coli},
+  author = {Brown, Beckley},
+  year = {2025},
+  publisher = {Zenodo},
+  doi = {10.5281/zenodo.17226894},
+  url = {https://doi.org/10.5281/zenodo.17226894}
+}
 
 ## 🤝 Contributing
 
