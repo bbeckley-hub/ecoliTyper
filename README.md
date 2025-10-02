@@ -33,7 +33,7 @@ conda activate ecolityper
 - Perl (for MLST)
 
 ### Quick Install
-```bash
+**```bash
 **# Clone the repository
 **git clone https://github.com/bbeckley-hub/ecoliTyper.git
 cd ecoliTyper
@@ -195,4 +195,4 @@ Beckley Brown
 🌐 GitHub Profile
 🔗 EcoliTyper Repository**
 
-**
+****
