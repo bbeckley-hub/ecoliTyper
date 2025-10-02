@@ -23,7 +23,9 @@
 - **📊 Comprehensive Output**: Multiple formats (TSV, JSON) for easy downstream analysis
 - **🎨 User-Friendly**: Beautiful ASCII art interface with science quotes
 
-## 🛠️ Installation
+## 🛠️ Installation(RECOMMENDED)
+conda create -n ecolityper -c bbeckley-hub -c conda-forge ecolityper python=3.9 -y
+conda activate ecolityper
 
 ### Prerequisites
 - Python 3.6 or higher
@@ -32,17 +34,17 @@
 
 ### Quick Install
 ```bash
-# Clone the repository
-git clone https://github.com/bbeckley-hub/ecoliTyper.git
+**# Clone the repository
+**git clone https://github.com/bbeckley-hub/ecoliTyper.git
 cd ecoliTyper
 
 # Install the package
 pip install -e .
 
-# Install EzClermont (required for phylotyping)
+# Install EzClermont (required for phylotyping)**
 pip install ezclermont
 
-# Environment Check
+**# Environment Check
 ecolityper --check
 
 ### 🚀 Usage
@@ -191,5 +193,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Beckley Brown
 📧 brownbeckley94@gmail.com
 🌐 GitHub Profile
-🔗 EcoliTyper Repository
+🔗 EcoliTyper Repository**
 
+**
