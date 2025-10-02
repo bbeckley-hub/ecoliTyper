@@ -75,7 +75,7 @@ ecolityper --version
 --check           Check environment and exit
 --version         Print version banner and exit
 
-# 📊 Output Files
+**# 📊 Output Files**
 EcoliTyper generates comprehensive output in multiple formats:
 # Main Output Files
 
@@ -89,13 +89,13 @@ EcoliTyper generates comprehensive output in multiple formats:
 
     ecolityper_run_meta.json - Run metadata and tool versions
 
-# Per-Sample Files
+**# Per-Sample Files**
 
     {sample}.ecolityper.json - Complete results in JSON format
 
     {sample}_serotype.json - Raw SerotypeFinder JSON output
 
-# Output Columns
+**# Output Columns**
 MLST Scheme MLST                 ST	O-type	H-type	Clermont Phylotype	Method
 ecoli.fna   ecoli_achtman_4	156	O173	H28	B1	                PCR
 
@@ -108,7 +108,7 @@ ecoli.fna   ecoli_achtman_4	156	O173	H28	B1	                PCR
 
     Fast Execution: Typical analysis time: 10-15 seconds per genome
 
-## Typing Methods
+**## Typing Methods**
 
     MLST: Uses the standard Achtman 7-gene scheme for E. coli
 
@@ -124,8 +124,8 @@ ecoli.fna   ecoli_achtman_4	156	O173	H28	B1	                PCR
 
     Clermont: EzClermont Python package for consistent phylogroup calling
 
-### 🎯 Use Cases
-## 🏥 Clinical Microbiology
+**### 🎯 Use Cases
+## 🏥 Clinical Microbiology**
 
     Rapid strain characterization for outbreak investigations
 
@@ -133,7 +133,7 @@ ecoli.fna   ecoli_achtman_4	156	O173	H28	B1	                PCR
 
     Virulence factor association studies
 
-## 🔬 Research Applications
+**## 🔬 Research Applications**
 
     Population genetics studies
 
@@ -141,7 +141,7 @@ ecoli.fna   ecoli_achtman_4	156	O173	H28	B1	                PCR
 
     Comparative genomics projects
 
-## 🐄 Veterinary and Food Safety
+**## 🐄 Veterinary and Food Safety**
 
     Source tracking in foodborne outbreaks
 
@@ -149,23 +149,23 @@ ecoli.fna   ecoli_achtman_4	156	O173	H28	B1	                PCR
 
     Agricultural surveillance
 
-## 📝 Citation
+**## 📝 Citation**
 
 If you use EcoliTyper in your research, please cite:
 
 **Brown, B. (2025). EcoliTyper: Unified MLST + Serotyping + Clermont typing for Escherichia coli. Zenodo. https://doi.org/10.5281/zenodo.17226894**
 
-```bibtex
+**```bibtex
 @software{brown2025ecolityper,
   title = {EcoliTyper: Unified MLST + Serotyping + Clermont typing for Escherichia coli},
   author = {Brown, Beckley},
   year = {2025},
   publisher = {Zenodo},
   doi = {10.5281/zenodo.17226894},
-  url = {https://doi.org/10.5281/zenodo.17226894}
+  url = {https://doi.org/10.5281/zenodo.17226894}**
 }
 
-## 🤝 Contributing
+**## 🤝 Contributing**
 
 We welcome contributions! Please feel free to submit pull requests, report bugs, or suggest new features.
 
@@ -174,11 +174,11 @@ git clone https://github.com/bbeckley-hub/ecoliTyper.git
 cd ecoliTyper
 pip install -e .
 
-## 📄 License
+**## 📄 License**
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+**## 🙏 Acknowledgments**
 
     CGE (Center for Genomic Epidemiology) for the excellent SerotypeFinder tool and database
 
@@ -188,7 +188,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
     The open-source bioinformatics community for invaluable tools and resources
 
-## 📞 Contact
+**## 📞 Contact**
 
 Beckley Brown
 📧 brownbeckley94@gmail.com
