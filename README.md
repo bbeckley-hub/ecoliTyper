@@ -48,27 +48,36 @@ pip install ezclermont
 ecolityper --check
 
 ### 🚀 Usage
+
 # Basic Usage
 # Single genome analysis
+
 ecolityper -i genome.fna -o results
 
 # Multiple genomes with wildcards
+
 ecolityper -i "*.fna" -o results --threads 8
 
 # Multiple specific files
+
 ecolityper -i genome1.fna genome2.fna genome3.fna -o results
 
 # Advanced Options
+
 # High-performance with 16 threads
+
 ecolityper -i "data/*.fasta" -o analysis_results --threads 16
 
 # Check environment and exit
+
 ecolityper --check
 
 # Show version information
+
 ecolityper --version
 
 # Command Line Options
+
 -i, --inputs      Input genome FASTA files (supports globs, e.g. '*.fasta')
 -o, --outdir      Output directory (default: ecolityper_results)
 --threads         Number of parallel workers (default: CPU count)
@@ -76,7 +85,9 @@ ecolityper --version
 --version         Print version banner and exit
 
 **# 📊 Output Files**
+
 EcoliTyper generates comprehensive output in multiple formats:
+
 # Main Output Files
 
     ecolityper_summary.tsv - Combined results for all samples
